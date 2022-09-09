@@ -809,29 +809,6 @@ void gameOver(int x,int y){//游戏结束界面
   EsploraTFT.text(str.c_str(),4,60);
   EsploraTFT.text("Press RIGHT to continue...",4,72);
   EsploraTFT.text("* Stay determined...",20,99);
-  /*
-  EsploraTFT.setTextSize(3);
-  for(int i=1;i<=8;i++){
-    EsploraTFT.stroke(32*i-1,32*i-1,32*i-1);
-    EsploraTFT.text("GAME",45,6);EsploraTFT.text("OVER",45,32);delay(100);
-  }
-  delay(900);
-  
-  EsploraTFT.setTextSize(1);
-  String str="You lasted "+(String)timing+" s";
-  EsploraTFT.stroke(64,64,64);EsploraTFT.text(str.c_str(),4,60);EsploraTFT.text("Press RIGHT to continue...",4,70);
-  EsploraTFT.stroke(255,255,255);EsploraTFT.text("* ",22,99);delay(50);
-  EsploraTFT.stroke(128,128,128);EsploraTFT.text(str.c_str(),4,60);EsploraTFT.text("Press RIGHT to continue...",4,70);
-  EsploraTFT.stroke(255,255,255);EsploraTFT.text("S",32,99);delay(50);
-  EsploraTFT.stroke(192,192,192);EsploraTFT.text(str.c_str(),4,60);EsploraTFT.text("Press RIGHT to continue...",4,70);
-  EsploraTFT.stroke(255,255,255);EsploraTFT.text("t",38,99);delay(50);
-  EsploraTFT.stroke(255,255,255);EsploraTFT.text(str.c_str(),4,60);EsploraTFT.text("Press RIGHT to continue...",4,70);
-  EsploraTFT.text("a",44,99);delay(50);EsploraTFT.text("y",50,99);delay(50);EsploraTFT.text(" ",56,99);delay(50);
-  EsploraTFT.text("d",62,99);delay(50);EsploraTFT.text("e",68,99);delay(50);EsploraTFT.text("t",74,99);delay(50);
-  EsploraTFT.text("e",80,99);delay(50);EsploraTFT.text("r",86,99);delay(50);EsploraTFT.text("m",92,99);delay(50);
-  EsploraTFT.text("i",98,99);delay(50);EsploraTFT.text("n",104,99);delay(50);EsploraTFT.text("e",110,99);delay(50);
-  EsploraTFT.text("d",116,99);delay(50);EsploraTFT.text(".",122,99);delay(50);EsploraTFT.text(".",128,99);delay(50);
-  EsploraTFT.text(".",134,99);*/
   
   while(Esplora.readButton(SWITCH_RIGHT)==HIGH);
   while(Esplora.readButton(SWITCH_RIGHT)==LOW);
